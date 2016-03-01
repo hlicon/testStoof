@@ -1,15 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class changeText : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+	public Text targetText;
+
+	public void ChangeText(string newText){
+		targetText.text = newText;
 	}
 }
